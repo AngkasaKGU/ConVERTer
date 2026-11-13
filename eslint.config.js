@@ -37,4 +37,12 @@ export default ts.config(
 			"svelte/valid-compile": "off",
 		},
 	},
+	{
+		// ConVERTer: rules new in ESLint 10's recommended set that upstream code doesn't pass yet.
+		// warn instead of fixing upstream files, to keep upstream merges clean
+		rules: {
+			"no-useless-assignment": "warn",
+			"preserve-caught-error": "warn",
+		},
+	},
 );

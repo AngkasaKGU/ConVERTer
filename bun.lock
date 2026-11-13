@@ -45,6 +45,7 @@
         "wasm-vips": "^0.0.19",
       },
       "devDependencies": {
+        "@eslint/js": "^10.0.1",
         "@inlang/paraglide-js": "^2.29.0",
         "@poppanator/sveltekit-svg": "^7.0.1",
         "@sveltejs/adapter-static": "^4.0.0",
@@ -129,6 +130,8 @@
     "@eslint/config-helpers": ["@eslint/config-helpers@0.7.0", "", { "dependencies": { "@eslint/core": "^1.2.1" } }, "sha512-DObd/KKUsU+FaFv4PLxSRenpXfQWmPXXP3pPZ6/K1PCrMu2vQpMDMuQe/BqYeoLcz8ro0bVDF1RxOJgfVEdhUw=="],
 
     "@eslint/core": ["@eslint/core@1.2.1", "", { "dependencies": { "@types/json-schema": "^7.0.15" } }, "sha512-MwcE1P+AZ4C6DWlpin/OmOA54mmIZ/+xZuJiQd4SyB29oAJjN30UW9wkKNptW2ctp4cEsvhlLY/CsQ1uoHDloQ=="],
+
+    "@eslint/js": ["@eslint/js@10.0.1", "", { "peerDependencies": { "eslint": "^10.0.0" }, "optionalPeers": ["eslint"] }, "sha512-zeR9k5pd4gxjZ0abRoIaxdc7I3nDktoXZk2qOv9gCNWx3mVwEn32VRhyLaRsDiJjTs0xq/T8mfPtyuXu7GWBcA=="],
 
     "@eslint/object-schema": ["@eslint/object-schema@3.0.5", "", {}, "sha512-vqTaUEgxzm+YDSdElad6PiRoX4t8VGDjCtt05zn4nU810UIx/uNEV7/lZJ6KwFThKZOzOxzXy48da+No7HZaMw=="],
 
@@ -222,7 +225,7 @@
 
     "@neplex/vectorizer-linux-x64-musl": ["@neplex/vectorizer-linux-x64-musl@0.1.0", "", { "os": "linux", "cpu": "x64" }, "sha512-T9QgcxddN7mF/8JrA1FNr7F3EwKKwWFFl2v8tndRtDU1N/2wLj+1drSzgJZjxcTjlMG3yOcLhDqFXq7Nsxwwkg=="],
 
-    "@neplex/vectorizer-wasm32-wasi": ["@neplex/vectorizer-wasm32-wasi@https://registry.npmjs.org/@neplex/vectorizer-wasm32-wasi/-/vectorizer-wasm32-wasi-0.1.0.tgz", { "dependencies": { "@napi-rs/wasm-runtime": "^1.1.4" } }, "sha512-rEQs14UTfQqh69uxwRo2aJiDzymdOx+j/5pl7sDuEITsx/6nb60dsZkd8gkyuNzBeYSTt8lSSL3sxEmHXQauPw=="],
+    "@neplex/vectorizer-wasm32-wasi": ["@neplex/vectorizer-wasm32-wasi@https://registry.npmjs.org/@neplex/vectorizer-wasm32-wasi/-/vectorizer-wasm32-wasi-0.1.0.tgz", { "dependencies": { "@napi-rs/wasm-runtime": "^1.1.4" } }],
 
     "@neplex/vectorizer-win32-arm64-msvc": ["@neplex/vectorizer-win32-arm64-msvc@0.1.0", "", { "os": "win32", "cpu": "arm64" }, "sha512-QdzriEzZHlzaCFZKw4GgMZ2cUomD+fAgOFs4qYVFQ9K2weyJzTNsCam3gb6xZFhFJ/REPVbNdAB46W6RyAjLBA=="],
 
