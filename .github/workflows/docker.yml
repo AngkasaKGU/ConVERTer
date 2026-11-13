@@ -2,7 +2,7 @@ name: Docker Image CI
 
 on:
     push:
-        branches: ["main"]
+        branches: ["converter"]
         tags: ["v*"]
         paths:
             - "src/**"
@@ -10,7 +10,7 @@ on:
             - "Dockerfile"
             - ".dockerignore"
     pull_request:
-        branches: ["main"]
+        branches: ["converter"]
         paths:
             - "src/**"
             - "static/**"

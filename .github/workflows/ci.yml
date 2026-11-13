@@ -1,0 +1,51 @@
+name: CI
+
+on:
+    push:
+        branches: ["converter"]
+    pull_request:
+        branches: ["converter"]
+    workflow_dispatch:
+
+jobs:
+    check:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  # full history, so the format check can diff against main (upstream mirror)
+                  fetch-depth: 0
+
+            - name: Install Bun
+              uses: oven-sh/setup-bun@v2
+
+            - name: Install dependencies
+              run: bun install --frozen-lockfile
+
+            - name: Compile messages
+              run: bunx paraglide-js compile --project ./project.inlang --outdir ./src/lib/paraglide
+
+            - name: Typecheck
+              run: bun run check
+
+            - name: Lint
+              run: bun run lint
+
+            - name: Branding
+              run: bun run check:branding
+
+            # only files ConVERTer changed: reformatting untouched upstream files would cause merge conflicts
+            - name: Format (changed files)
+              run: |
+                  files=$(git diff --name-only --diff-filter=ACMR origin/main...HEAD)
+                  if [ -n "$files" ]; then
+                      bunx prettier --check --ignore-unknown $files
+                  fi
+
+            - name: Build
+              run: |
+                  set -a
+                  . ./.env.example
+                  set +a
+                  bun run build

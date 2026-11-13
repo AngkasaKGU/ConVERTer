@@ -54,7 +54,9 @@
 						{m["settings.conversion.file_type_detection.label"]()}
 					</p>
 					<p class="text-sm font-normal text-muted">
-						{m["settings.conversion.file_type_detection.description"]()}
+						{m[
+							"settings.conversion.file_type_detection.description"
+						]()}
 					</p>
 				</div>
 				<div class="flex w-full gap-3">
