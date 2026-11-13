@@ -8,7 +8,7 @@
 		"toggle_theme": "テーマを切り替える"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "ソースコード",
 		"discord_server": "Discordサーバー"
 	},
@@ -20,7 +20,7 @@
 			"convert": "変換"
 		},
 		"cards": {
-			"title": "VERTがサポートしている形式",
+			"title": "ConVERTerがサポートしている形式",
 			"images": "画像",
 			"audio": "音声",
 			"documents": "ドキュメント",
@@ -111,7 +111,7 @@
 			},
 			"language": {
 				"title": "言語",
-				"description": "VERTインターフェイスの表示言語を選択してください。"
+				"description": "ConVERTerインターフェイスの表示言語を選択してください。"
 			}
 		},
 		"conversion": {
@@ -140,7 +140,7 @@
 			"filename": {
 				"format": "ファイル名フォーマット",
 				"description": "これはダウンロード時のファイル名を決定します（拡張子を除く）。以下のテンプレートを使用できます：<b>%name%</b>（元のファイル名）、<b>%extension%</b>（元の拡張子）、<b>%date%</b>（変換日時）。",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			}
 		},
 		"vertd": {
@@ -150,7 +150,7 @@
 			"available": "利用可能（コミットID {commitId}）",
 			"unavailable": "利用不可（URLが正しいですか？）",
 			"description": {
-				"main": "<code>vertd</code>プロジェクトはFFmpegのサーバーラッパーです。これにより、GPUの性能を活かして高速に変換しつつ、VERTのウェブインターフェイスから簡単に動画を変換できます。",
+				"main": "<code>vertd</code>プロジェクトはFFmpegのサーバーラッパーです。これにより、GPUの性能を活かして高速に変換しつつ、ConVERTerのウェブインターフェイスから簡単に動画を変換できます。",
 				"info": "私たちは利便性のために公開インスタンスをホストしていますが、自分のPCやサーバーでも簡単にホストできます。バイナリは[vertd_link]こちら[/vertd_link]からダウンロードできます。今後さらにセットアップが簡単になる予定です！"
 			},
 			"instance": {
@@ -234,7 +234,7 @@
 			"github_description": "多くの方々に感謝します！[github_link]あなたも参加してみませんか？[/github_link]",
 			"no_contributors": "まだ誰も貢献していないようです… [contribute_link]最初の貢献者になりましょう！[/contribute_link]",
 			"libraries": "ライブラリ",
-			"libraries_description": "長年にわたり優れたライブラリを提供してくれているFFmpeg（音声・動画）、ImageMagick（画像）、Pandoc（ドキュメント）に感謝します。VERTはこれらに依存して動作しています。",
+			"libraries_description": "長年にわたり優れたライブラリを提供してくれているFFmpeg（音声・動画）、ImageMagick（画像）、Pandoc（ドキュメント）に感謝します。ConVERTerはこれらに依存して動作しています。",
 			"roles": {
 				"lead_developer": "リード開発者；変換バックエンド、UI実装",
 				"developer": "開発者；UI実装",

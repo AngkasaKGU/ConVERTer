@@ -8,7 +8,7 @@
 		"toggle_theme": "Toggle theme"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "Source code",
 		"discord_server": "Discord server",
 		"privacy_policy": "Privacy policy"
@@ -21,7 +21,7 @@
 			"convert": "convert"
 		},
 		"cards": {
-			"title": "VERT supports...",
+			"title": "ConVERTer supports...",
 			"images": "Images",
 			"audio": "Audio",
 			"documents": "Documents",
@@ -44,7 +44,7 @@
 			"partial_support": "This format can only be converted as {direction}.",
 			"direction_input": "input (from)",
 			"direction_output": "output (to)",
-			"video_server_processing": "When possible, VERT converts videos locally in your browser. Some conversions may require server-side processing, learn how to set it up locally here."
+			"video_server_processing": "When possible, ConVERTer converts videos locally in your browser. Some conversions may require server-side processing, learn how to set it up locally here."
 		}
 	},
 	"convert": {
@@ -307,7 +307,7 @@
 			"disable": "Disable",
 			"language": {
 				"title": "Language",
-				"description": "Select your preferred language for the VERT interface."
+				"description": "Select your preferred language for the ConVERTer interface."
 			}
 		},
 		"conversion": {
@@ -316,7 +316,7 @@
 			"filename": {
 				"format": "File name format",
 				"description": "This will determine the name of the file on download, <b>not including the file extension.</b> You can put the following templates in the format, which will be replaced with the relevant information: <b>%name%</b> for the original file name, <b>%extension%</b> for the original file extension, <b>%datetime%</b> for the full ISO 8601 timestamp, <b>%date%</b> for the date, <b>%time%</b> for the time, and <b>%unix%</b> for the unix timestamp.",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			},
 			"file_type_detection": {
 				"label": "File type detection",
@@ -355,7 +355,7 @@
 			"unavailable": "unavailable (is the url right?)",
 			"info": "size limit: {sizeLimit}, commit id: {commitId}",
 			"description": {
-				"main": "VERT converts videos securely by doing it locally in your browser; however some specific conversions may require connecting to, and using a <code>vertd</code> server. <code>vertd</code> allows you to convert videos using the server's GPU, and without the conversion limits of your browser, whilst still allowing you the convenience of VERT's web interface.",
+				"main": "ConVERTer converts videos securely by doing it locally in your browser; however some specific conversions may require connecting to, and using a <code>vertd</code> server. <code>vertd</code> allows you to convert videos using the server's GPU, and without the conversion limits of your browser, whilst still allowing you the convenience of ConVERTer's web interface.",
 				"info": "We host a public server for vertd for your convenience, but it is quite easy to host your own on your PC or server if you know what you are doing.",
 				"more": "[vertd_link]Learn more[/vertd_link]"
 			},
@@ -407,7 +407,7 @@
 			},
 			"site_data": {
 				"title": "Site data management",
-				"description": "Clear all site data including settings and cached files, resetting VERT to its default state and reloading the page.",
+				"description": "Clear all site data including settings and cached files, resetting ConVERTer to its default state and reloading the page.",
 				"clear_all_data": "Clear all site data",
 				"clear_all_data_confirm_title": "Clear all site data?",
 				"clear_all_data_confirm": "This will reset all settings & cache, then reload the page. This action cannot be undone.",
@@ -513,13 +513,14 @@
 		"credits": {
 			"title": "Credits",
 			"contact_team": "If you would like to contact the VERT team, please use the email found on the \"Resources\" card.",
+			"forked_from": "Forked from",
 			"notable_contributors": "Notable contributors",
 			"notable_description": "We'd like to thank these people for their major contributions to VERT.",
 			"github_contributors": "GitHub contributors",
 			"github_description": "Big thanks to all these people for helping out! [github_link]Want to help too?[/github_link]",
 			"no_contributors": "Seems like no one has contributed yet... [contribute_link]be the first to contribute![/contribute_link]",
 			"libraries": "Libraries",
-			"libraries_description": "A big thanks to Mediabunny (video), FFmpeg (audio, video), ImageMagick (images) and Pandoc (documents) for maintaining such excellent libraries for so many years. VERT relies on them to provide you with your conversions.",
+			"libraries_description": "A big thanks to Mediabunny (video), FFmpeg (audio, video), ImageMagick (images) and Pandoc (documents) for maintaining such excellent libraries for so many years. ConVERTer relies on them to provide you with your conversions.",
 			"roles": {
 				"maddie": "Developer; infrastructure, conversion backend, UI implementation",
 				"maya": "Developer; conversion backend, UI implementation",
@@ -612,6 +613,6 @@
 		"last_updated": "Last updated: 2026-10-06"
 	},
 	"toast": {
-		"insecure_context": "You are visiting VERT in an insecure context (e.g. accessing over HTTP instead of HTTPS). Some features may not work as expected."
+		"insecure_context": "You are visiting ConVERTer in an insecure context (e.g. accessing over HTTP instead of HTTPS). Some features may not work as expected."
 	}
 }

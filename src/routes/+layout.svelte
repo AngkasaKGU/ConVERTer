@@ -4,7 +4,11 @@
 	import { resolve } from "$app/paths";
 
 	import { PUB_PLAUSIBLE_URL, PUB_HOSTNAME } from "$app/env/public";
-	import { DISABLE_ALL_EXTERNAL_REQUESTS, VERT_NAME } from "#lib/util/consts";
+	import {
+		DISABLE_ALL_EXTERNAL_REQUESTS,
+		VERTD_ENABLED,
+		VERT_NAME,
+	} from "#lib/util/consts";
 	import * as Layout from "#lib/components/layout";
 	import * as Navbar from "#lib/components/layout/Navbar";
 	import { Settings } from "#lib/sections/settings/index.svelte";
@@ -172,7 +176,7 @@
 
 	onMount(() => {
 		// query vertd server for size limit on mount and on settings change
-		useVertdSizeLimit();
+		if (VERTD_ENABLED) useVertdSizeLimit();
 	});
 </script>
 
@@ -185,9 +189,8 @@
 	/>
 	<meta
 		name="description"
-		content="With VERT, you can quickly convert any image, video, audio, and document file. No ads, no tracking, open source, and all processing is done on your device."
+		content="With ConVERTer, you can quickly convert any image, video, audio, and document file. No ads, no tracking, open source, and all processing is done on your device."
 	/>
-	<meta property="og:url" content="https://vert.sh" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:title"
@@ -195,30 +198,22 @@
 	/>
 	<meta
 		property="og:description"
-		content="With VERT, you can quickly convert any image, video, audio, and document file. No ads, no tracking, open source, and all processing is done on your device."
+		content="With ConVERTer, you can quickly convert any image, video, audio, and document file. No ads, no tracking, open source, and all processing is done on your device."
 	/>
-	<meta property="og:image" content="https://vert.sh/VERT_Feature.webp" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta property="twitter:domain" content="vert.sh" />
-	<meta property="twitter:url" content="https://vert.sh" />
+	<meta name="twitter:card" content="summary" />
 	<meta
 		property="twitter:title"
 		content="{VERT_NAME} — Free, fast, and awesome file converter"
 	/>
 	<meta
 		property="twitter:description"
-		content="With VERT, you can quickly convert any image, video, audio, and document file. No ads, no tracking, open source, and all processing is done on your device."
-	/>
-	<meta
-		property="twitter:image"
-		content="https://vert.sh/VERT_Feature.webp"
+		content="With ConVERTer, you can quickly convert any image, video, audio, and document file. No ads, no tracking, open source, and all processing is done on your device."
 	/>
 	<link rel="manifest" href="/manifest.json" />
-	<link rel="canonical" href="https://vert.sh/" />
 	{#if enablePlausible}
 		<script
 			defer
-			data-domain={PUB_HOSTNAME || "vert.sh"}
+			data-domain={PUB_HOSTNAME || (browser ? location.hostname : "")}
 			src="{PUB_PLAUSIBLE_URL}/js/script.js"
 		></script>
 	{/if}

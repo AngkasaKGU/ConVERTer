@@ -950,7 +950,7 @@ export class VertFile {
 					suggestedName: filename,
 					types: [
 						{
-							description: "The VERT converted file",
+							description: "The ConVERTer converted file",
 							accept: { "application/octet-stream": [`.${ext}`] },
 						},
 					],

@@ -170,7 +170,7 @@
 {/snippet}
 
 <div bind:this={container}>
-	<Panel class="relative flex h-20 w-screen max-w-[778px] items-center gap-3">
+	<Panel class="relative flex h-20 w-screen max-w-[842px] items-center gap-3">
 		{@const linkRect = linkRects.at(selectedIndex) || linkRects[0]}
 		{#if linkRect && isInitialized}
 			<div
@@ -186,7 +186,7 @@
 			></div>
 		{/if}
 		<a
-			class="hidden h-full w-28 items-center justify-center rounded-xl bg-accent md:flex"
+			class="hidden h-full w-44 shrink-0 items-center justify-center rounded-xl bg-accent px-3 md:flex"
 			href={resolve("/")}
 		>
 			<div class="h-5 w-full">

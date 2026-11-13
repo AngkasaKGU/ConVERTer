@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://vert.sh/sitemap.xml

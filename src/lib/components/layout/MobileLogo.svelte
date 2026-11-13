@@ -9,9 +9,9 @@
 		href={resolve("/")}
 	>
 		<div
-			class="flex h-14 items-center justify-center rounded-[14px] bg-accent"
+			class="flex h-14 items-center justify-center rounded-[14px] bg-accent px-4"
 		>
-			<div class="h-5 w-28">
+			<div class="h-5 w-40">
 				<Logo />
 			</div>
 		</div>

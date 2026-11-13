@@ -8,19 +8,19 @@
 		"toggle_theme": "Changer de thème"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "Code source",
 		"discord_server": "Serveur Discord"
 	},
 	"upload": {
 		"title": "Le convertisseur de fichiers que vous allez adorer.",
-		"subtitle": "Tout le traitement des images, des fichiers audio et des documents s'effectue sur votre appareil. Les vidéos sont converties sur nos serveurs ultra-rapides. Aucune limite de taille de fichier, aucune publicité et entièrement open source.",
+		"subtitle": "Tout le traitement des images, des fichiers audio et des documents s'effectue sur votre appareil. Aucune limite de taille de fichier, aucune publicité et entièrement open source.",
 		"uploader": {
 			"text": "Déposer ou cliquer pour {action}",
 			"convert": "convertir"
 		},
 		"cards": {
-			"title": "VERT supports...",
+			"title": "ConVERTer supports...",
 			"images": "Images",
 			"audio": "Audio",
 			"documents": "Documents",
@@ -105,7 +105,7 @@
 			},
 			"language": {
 				"title": "Langue",
-				"description": "Sélectionnez votre langue préférée pour l'interface de VERT"
+				"description": "Sélectionnez votre langue préférée pour l'interface de ConVERTer"
 			}
 		},
 		"conversion": {
@@ -136,7 +136,7 @@
 			"filename": {
 				"format": "Format du nom de fichier",
 				"description": "Cela déterminera le nom du fichier lors du téléchargement, <b>sans inclure l'extension du fichier.</b> Vous pouvez mettre les modèles suivants dans le format, qui seront remplacés par les informations pertinentes: <b>%name%</b> pour le nom du fichier d'origine, <b>%extension%</b> pour l'extension du fichier d'origine et <b>%date%</b> pour une chaîne de date indiquant quand le fichier a été converti.",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			}
 		},
 		"vertd": {
@@ -146,7 +146,7 @@
 			"available": "disponible, identifiant de validation {commitId}",
 			"unavailable": "indisponible (l'url est-elle correcte ?)",
 			"description": {
-				"main": "Le projet <code>vertd</code> est un serveur de wrapper utilisant FFmpeg. Il vous permet de convertir des vidéos grâce à l'interface web pratique de VERT'tout en exploitant la puissance de votre GPU pour une exécution rapide.",
+				"main": "Le projet <code>vertd</code> est un serveur de wrapper utilisant FFmpeg. Il vous permet de convertir des vidéos grâce à l'interface web pratique de ConVERTer'tout en exploitant la puissance de votre GPU pour une exécution rapide.",
 				"info": "Nous hébergeons une instance publique pour vous faciliter la tâche, mais il est assez facile d'héberger la vôtre sur votre PC ou votre serveur si vous savez ce que vous faites. Vous pouvez télécharger les binaires pour serveur [vertd_link]ici[/vertd_link] - le processus de mise en place deviendra plus facile à l'avenir, alors restez à l'écoute !"
 			},
 			"instance_url": "URL de l'instance",
@@ -215,7 +215,7 @@
 			"github_description": "Un grand merci à toutes ces personnes pour leur aide ! [github_link]Vous voulez aussi aider ?[/github_link]",
 			"no_contributors": "Il semble que personne n'ait encore contribué... [contribute_link]soyez le premier à contribuer ![/contribute_link]",
 			"libraries": "Bibliothèques",
-			"libraries_description": "un grand merci à FFmpeg (audio, video), ImageMagick (images) et Pandoc (documents) pour avoir maintenu d'aussi excellentes bibliothèques pendant tant d'années, VERT compte sur eux pour vous fournir vos conversions.",
+			"libraries_description": "un grand merci à FFmpeg (audio, video), ImageMagick (images) et Pandoc (documents) pour avoir maintenu d'aussi excellentes bibliothèques pendant tant d'années, ConVERTer compte sur eux pour vous fournir vos conversions.",
 			"roles": {
 				"lead_developer": "Lead developer; conversion backend, UI implementation",
 				"developer": "Developer; UI implementation",

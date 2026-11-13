@@ -8,20 +8,20 @@
 		"toggle_theme": "Přepnout vzhled"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "Zdrojový kód",
 		"discord_server": "Discord server",
 		"privacy_policy": "Zásady ochrany osobních údajů"
 	},
 	"upload": {
 		"title": "Konvertor souborů, který si zamilujete.",
-		"subtitle": "Veškeré zpracování obrázků, audia a dokumentů probíhá na vašem zařízení. Videa jsou konvertována na našich bleskově rychlých serverech. Žádné omezení velikosti souborů, bez reklam a kompletně open-source.",
+		"subtitle": "Veškeré zpracování obrázků, audia a dokumentů probíhá na vašem zařízení. Žádné omezení velikosti souborů, bez reklam a kompletně open-source.",
 		"uploader": {
 			"text": "Přetáhněte soubor nebo klikněte pro {action}",
 			"convert": "konvertování"
 		},
 		"cards": {
-			"title": "VERT podporuje...",
+			"title": "ConVERTer podporuje...",
 			"images": "Obrázky",
 			"audio": "Audio",
 			"documents": "Dokumenty",
@@ -146,7 +146,7 @@
 			},
 			"language": {
 				"title": "Jazyk",
-				"description": "Vyberte preferovaný jazyk pro rozhraní VERT."
+				"description": "Vyberte preferovaný jazyk pro rozhraní ConVERTer."
 			}
 		},
 		"conversion": {
@@ -177,7 +177,7 @@
 			"filename": {
 				"format": "Formát názvu souboru",
 				"description": "Toto určí název souboru při stažení, <b>bez přípony souboru.</b> Do formátu můžete vložit následující šablony, které budou nahrazeny příslušnými informacemi: <b>%name%</b> pro původní název souboru, <b>%extension%</b> pro původní příponu souboru a <b>%date%</b> pro datum, kdy byl soubor konvertován.",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			}
 		},
 		"vertd": {
@@ -187,7 +187,7 @@
 			"available": "dostupné, commit id {commitId}",
 			"unavailable": "nedostupné (je URL správná?)",
 			"description": {
-				"main": "Projekt <code>vertd</code> je serverový obal pro FFmpeg. To vám umožňuje konvertovat videa prostřednictvím pohodlného webového rozhraní VERT a zároveň využívat sílu vašeho GPU, abyste to udělali co nejrychleji.",
+				"main": "Projekt <code>vertd</code> je serverový obal pro FFmpeg. To vám umožňuje konvertovat videa prostřednictvím pohodlného webového rozhraní ConVERTer a zároveň využívat sílu vašeho GPU, abyste to udělali co nejrychleji.",
 				"info": "Pro vaše pohodlí hostujeme veřejnou instanci, ale pokud víte, co děláte, je docela snadné si ji hostovat sami na vašem PC nebo serveru. Serverové binárky si můžete stáhnout [vertd_link]zde[/vertd_link] - proces nastavení bude v budoucnu jednodušší, takže zůstaňte naladěni!"
 			},
 			"instance": {
@@ -233,7 +233,7 @@
 			},
 			"site_data": {
 				"title": "Správa dat webu",
-				"description": "Vymažte všechna data webu včetně nastavení a souborů v mezipaměti, resetujte VERT do výchozího stavu a znovu načtěte stránku.",
+				"description": "Vymažte všechna data webu včetně nastavení a souborů v mezipaměti, resetujte ConVERTer do výchozího stavu a znovu načtěte stránku.",
 				"clear_all_data": "Vymazat všechna data webu",
 				"clear_all_data_confirm_title": "Vymazat všechna data webu?",
 				"clear_all_data_confirm": "Toto resetuje všechna nastavení a mezipaměť a poté znovu načte stránku. Tuto akci nelze vrátit zpět.",
@@ -284,7 +284,7 @@
 			"github_description": "Velké díky všem těmto lidem za pomoc! [github_link]Chcete pomoci také?[/github_link]",
 			"no_contributors": "Zdá se, že zatím nikdo nepřispěl... [contribute_link]buďte první, kdo přispěje![/contribute_link]",
 			"libraries": "Knihovny",
-			"libraries_description": "Velké díky FFmpeg (audio, video), ImageMagick (obrázky) a Pandoc (dokumenty) za udržování tak vynikajících knihoven po tolik let. VERT na nich spoléhá, aby vám mohl poskytovat vaše konverze.",
+			"libraries_description": "Velké díky FFmpeg (audio, video), ImageMagick (obrázky) a Pandoc (dokumenty) za udržování tak vynikajících knihoven po tolik let. ConVERTer na nich spoléhá, aby vám mohl poskytovat vaše konverze.",
 			"roles": {
 				"lead_developer": "Vedoucí vývojář; backend konverze, implementace UI",
 				"developer": "Vývojář; implementace UI",
@@ -348,6 +348,6 @@
 		"last_updated": "Naposledy aktualizováno: 29. 10. 2025"
 	},
 	"toast": {
-		"insecure_context": "Navštěvujete VERT v nezabezpečeném kontextu (např. přístup přes HTTP místo HTTPS). Některé funkce nemusí fungovat podle očekávání."
+		"insecure_context": "Navštěvujete ConVERTer v nezabezpečeném kontextu (např. přístup přes HTTP místo HTTPS). Některé funkce nemusí fungovat podle očekávání."
 	}
 }

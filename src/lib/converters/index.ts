@@ -1,5 +1,5 @@
 import type { Categories } from "#lib/types";
-import { DISABLE_ALL_EXTERNAL_REQUESTS } from "#lib/util/consts";
+import { VERTD_ENABLED } from "#lib/util/consts";
 import type { Converter, WorkerStatus } from "./converter.svelte";
 import { FFmpegConverter } from "./ffmpeg/audio/ffmpeg.audio.svelte";
 import { FFmpegVideoConverter } from "./ffmpeg/video/ffmpeg.video.svelte";
@@ -25,7 +25,7 @@ const getConverters = (): Converter[] => {
 		new FFmpegVideoConverter(),
 	];
 
-	if (!DISABLE_ALL_EXTERNAL_REQUESTS) converters.push(new VertdConverter());
+	if (VERTD_ENABLED) converters.push(new VertdConverter());
 
 	return converters;
 };

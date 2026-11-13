@@ -8,20 +8,20 @@
 		"toggle_theme": "Promijeni temu"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "Izvorni kod",
 		"discord_server": "Discord server",
 		"privacy_policy": "Politika privatnosti"
 	},
 	"upload": {
 		"title": "Konverter datoteka koji ćete voljeti.",
-		"subtitle": "Sva obrada slika, zvuka i dokumenata obavlja se na vašem uređaju. Video zapisi se konvertuju na našim izuzetno brzim serverima. Bez ograničenja veličine, bez reklama i potpuno otvorenog koda.",
+		"subtitle": "Sva obrada slika, zvuka i dokumenata obavlja se na vašem uređaju. Bez ograničenja veličine, bez reklama i potpuno otvorenog koda.",
 		"uploader": {
 			"text": "Prevucite ili kliknite da {action}",
 			"convert": "konvertujete"
 		},
 		"cards": {
-			"title": "VERT podržava...",
+			"title": "ConVERTer podržava...",
 			"images": "Slike",
 			"audio": "Audio",
 			"documents": "Dokumente",
@@ -146,7 +146,7 @@
 			},
 			"language": {
 				"title": "Jezik",
-				"description": "Odaberite željeni jezik VERT interfejsa."
+				"description": "Odaberite željeni jezik ConVERTer interfejsa."
 			}
 		},
 		"conversion": {
@@ -177,7 +177,7 @@
 			"filename": {
 				"format": "Format imena datoteke",
 				"description": "Ovo određuje ime datoteke pri preuzimanju, <b>bez ekstenzije</b>. Možete koristiti sljedeće šablone: <b>%name%</b> originalno ime, <b>%extension%</b> originalna ekstenzija, <b>%date%</b> datum konverzije.",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			}
 		},
 		"vertd": {
@@ -187,7 +187,7 @@
 			"available": "dostupan, commit id {commitId}",
 			"unavailable": "nedostupan (da li je URL tačan?)",
 			"description": {
-				"main": "<code>vertd</code> je serverski omotač za FFmpeg, omogućava brzo konvertovanje videa koristeći vaš GPU putem VERT web interfejsa.",
+				"main": "<code>vertd</code> je serverski omotač za FFmpeg, omogućava brzo konvertovanje videa koristeći vaš GPU putem ConVERTer web interfejsa.",
 				"info": "Imamo javnu instancu radi praktičnosti, ali možete lako hostati svoju. Preuzmite server [vertd_link]ovdje[/vertd_link]."
 			},
 			"instance": {
@@ -233,7 +233,7 @@
 			},
 			"site_data": {
 				"title": "Upravljanje podacima stranice",
-				"description": "Obriši sve podatke stranice uključujući postavke i cache i resetuj VERT.",
+				"description": "Obriši sve podatke stranice uključujući postavke i cache i resetuj ConVERTer.",
 				"clear_all_data": "Obriši sve podatke",
 				"clear_all_data_confirm_title": "Obrisati sve podatke stranice?",
 				"clear_all_data_confirm": "Resetovat će sve postavke i cache i osvježiti stranicu. Ova akcija je nepovratna.",
@@ -284,7 +284,7 @@
 			"github_description": "Veliko hvala svima! [github_link]Želite pomoći i vi?[/github_link]",
 			"no_contributors": "Izgleda da još niko nije doprinio... [contribute_link]budite prvi![/contribute_link]",
 			"libraries": "Biblioteke",
-			"libraries_description": "Veliko hvala FFmpeg-u (audio, video), ImageMagick-u (slike) i Pandoc-u (dokumenti). VERT se na njima temelji.",
+			"libraries_description": "Veliko hvala FFmpeg-u (audio, video), ImageMagick-u (slike) i Pandoc-u (dokumenti). ConVERTer se na njima temelji.",
 			"roles": {
 				"lead_developer": "Glavni developer; backend konverzije, UI implementacija",
 				"developer": "Developer; UI implementacija",

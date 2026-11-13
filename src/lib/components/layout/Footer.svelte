@@ -1,6 +1,5 @@
 <script lang="ts" context="module">
-	import { resolve } from "$app/paths";
-	import { GITHUB_URL_VERT, DISCORD_URL } from "#lib/util/consts";
+	import { GITHUB_URL_FORK } from "#lib/util/consts";
 	import { m } from "#lib/paraglide/messages";
 
 	declare const __COMMIT_HASH__: string | undefined;
@@ -26,30 +25,17 @@
 		<p>•</p>
 		<a
 			class="font-normal hover:underline"
-			href={GITHUB_URL_VERT}
+			href={GITHUB_URL_FORK}
 			target="_blank"
 			rel="external"
 		>
 			{m["footer.source_code"]()}
 		</a>
-		<p>•</p>
-		<a
-			class="font-normal hover:underline"
-			href={DISCORD_URL}
-			target="_blank"
-			rel="external"
-		>
-			{m["footer.discord_server"]()}
-		</a>
-		<p>•</p>
-		<a class="font-normal hover:underline" href={resolve("/privacy")}>
-			{m["footer.privacy_policy"]()}
-		</a>
 		{#if commitHash}
 			<p>•</p>
 			<a
 				class="font-normal hover:underline"
-				href="{GITHUB_URL_VERT}/commit/{commitHash}"
+				href="{GITHUB_URL_FORK}/commit/{commitHash}"
 				target="_blank"
 				rel="external"
 			>

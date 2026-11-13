@@ -8,7 +8,6 @@
 	import avatarJovannMC from "#lib/assets/avatars/jovannmc.jpg";
 	import avatarRealmy from "#lib/assets/avatars/realmy.jpg";
 	import avatarAzurejelly from "#lib/assets/avatars/azurejelly.jpg";
-	import { PUB_DONATION_URL, PUB_STRIPE_KEY } from "$app/env/public";
 	import {
 		DISABLE_ALL_EXTERNAL_REQUESTS,
 		GITHUB_API_URL,
@@ -131,9 +130,6 @@
 			error(["general"], `Error fetching GitHub contributors: ${e}`);
 		}
 	});
-
-	const donationsEnabled =
-		PUB_STRIPE_KEY && PUB_DONATION_URL && !DISABLE_ALL_EXTERNAL_REQUESTS;
 </script>
 
 <div class="flex h-full flex-col items-center">
@@ -145,17 +141,8 @@
 	<div
 		class="flex w-full max-w-[1280px] flex-col gap-4 p-4 md:flex-row md:px-4 md:py-0"
 	>
-		<!-- Why VERT? & Credits -->
-		<div class="flex flex-1 flex-col gap-4">
-			{#if donationsEnabled}
-				<About.Donate />
-			{/if}
-			<About.Why />
-			<!-- <About.Sponsors /> -->
-		</div>
-
-		<!-- Resources & Donate to VERT -->
-		<div class="flex flex-1 flex-col gap-4">
+		<!-- ConVERTer drops Donate and Why VERT? (upstream-specific), leaving one column -->
+		<div class="mx-auto flex w-full max-w-[720px] flex-col gap-4">
 			<About.Resources />
 			<About.Credits {mainContribs} {notableContribs} {ghContribs} />
 		</div>

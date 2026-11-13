@@ -8,7 +8,7 @@
 		"toggle_theme": "Zmień motyw"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "Kod źródłowy",
 		"discord_server": "Serwer Discord",
 		"privacy_policy": "Polityka prywatności"
@@ -21,7 +21,7 @@
 			"convert": "konwertować"
 		},
 		"cards": {
-			"title": "VERT wspiera...",
+			"title": "ConVERTer wspiera...",
 			"images": "Zdjęcia",
 			"audio": "Pliki audio",
 			"documents": "Dokumenty",
@@ -146,7 +146,7 @@
 			},
 			"language": {
 				"title": "Język",
-				"description": "Wybierz swój preferowany język dla interfejsu VERT."
+				"description": "Wybierz swój preferowany język dla interfejsu ConVERTer."
 			}
 		},
 		"conversion": {
@@ -177,7 +177,7 @@
 			"filename": {
 				"format": "Format nazwy pliku",
 				"description": "To ustawienie pozwoli ci określić nazwę pliku przy jego pobieraniu <b>z wyłączeniem jego rozszerzenia.</b> Możesz w formacie umieścić następujące wzorce, które następnie zostaną zamienione na odpowiednią informację: <b>%name%</b> zostanie zamieniony na oryginalną nazwę pliku, <b>%extension%</b> zostanie zamieniony na oryginalne rozszerzenie pliku oraz <b>%date%</b> zamieniony zostanie na datę kiedy plik został przekonwertowany.",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			}
 		},
 		"vertd": {
@@ -187,7 +187,7 @@
 			"available": "dostępna, commit id {commitId}",
 			"unavailable": "niedostępna (czy url jest poprawny?)",
 			"description": {
-				"main": "Projekt <code>vertd</code> jest serwerową nakładką na FFmpeg. To pozwala ci konwertować wideo za pomocą interfejsu sieciowego VERT, nadal będąc w stanie wykorzystywać moc swojego procesora graficznego (GPU) w celu jak najszybszej konwersji.",
+				"main": "Projekt <code>vertd</code> jest serwerową nakładką na FFmpeg. To pozwala ci konwertować wideo za pomocą interfejsu sieciowego ConVERTer, nadal będąc w stanie wykorzystywać moc swojego procesora graficznego (GPU) w celu jak najszybszej konwersji.",
 				"info": "Dla twojej wygody hostujemy publiczną instancję, jednak ustawienie hosta na twoim własnym komputerze lub serwerze jest stosunkowo proste, jeśli wiesz, co robisz. Możesz pobrać binaria serwera [vertd_link]tutaj[/vertd_link] - w przyszłości proces tej konfiguracji będzie łatwiejszy, więc czekajcie na więcej informacji!"
 			},
 			"instance": {
@@ -233,7 +233,7 @@
 			},
 			"site_data": {
 				"title": "Zarządzanie danymi strony",
-				"description": "Wyczyść wszystkie dane strony wliczając ustawienia i przechowywane pliki, przywracając VERT do swojego domyślnego stanu oraz odświeżając stronę.",
+				"description": "Wyczyść wszystkie dane strony wliczając ustawienia i przechowywane pliki, przywracając ConVERTer do swojego domyślnego stanu oraz odświeżając stronę.",
 				"clear_all_data": "Wyczyść wszystkie dane strony",
 				"clear_all_data_confirm_title": "Wyczyścić wszystkie dane strony?",
 				"clear_all_data_confirm": "To zresetuje wszystkie ustawienia i przechowywane pliki, a następnie odświeży stronę. To działanie jest nieodwracalne.",
@@ -284,7 +284,7 @@
 			"github_description": "Wielkie podziękowania dla tych wszystkich osób za pomoc! [github_link]Też chcesz pomóc?[/github_link]",
 			"no_contributors": "Wygląda na to, że jeszcze nikt nie wspomógł... [contribute_link]bądź pierwszym, który nam pomoże![/contribute_link]",
 			"libraries": "Biblioteki",
-			"libraries_description": "Wielkie podziękowania dla FFmpeg (audio, wideo), ImageMagick (zdjęcia) oraz Pandoc (dokumenty) za utrzymywanie tak wspaniałych bibliotek przez tak wiele lat. VERT opiera się na nich aby umożliwić ci twoje konwersje.",
+			"libraries_description": "Wielkie podziękowania dla FFmpeg (audio, wideo), ImageMagick (zdjęcia) oraz Pandoc (dokumenty) za utrzymywanie tak wspaniałych bibliotek przez tak wiele lat. ConVERTer opiera się na nich aby umożliwić ci twoje konwersje.",
 			"roles": {
 				"lead_developer": "Główny deweloper; backend konwersji, implementacja UI",
 				"developer": "Deweloper; implementacja UI",
@@ -348,6 +348,6 @@
 		"last_updated": "Ostatnia aktualizacja: 2025-10-29"
 	},
 	"toast": {
-		"insecure_context": "Odwiedzasz VERT w niezabezpieczonym kontekście (np. uzyskujesz dostęp poprzez HTTP zamiast HTTPS). Niektóre funkcje mogą działać niezgodnie z oczekiwaniami."
+		"insecure_context": "Odwiedzasz ConVERTer w niezabezpieczonym kontekście (np. uzyskujesz dostęp poprzez HTTP zamiast HTTPS). Niektóre funkcje mogą działać niezgodnie z oczekiwaniami."
 	}
 }

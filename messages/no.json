@@ -8,20 +8,20 @@
 		"toggle_theme": "Bytt tema"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "Kildekode",
 		"discord_server": "Discord-server",
 		"privacy_policy": "Personvern"
 	},
 	"upload": {
 		"title": "Filkonvertereren du vil elske.",
-		"subtitle": "All bilde-, lyd- og dokumentbehandling skjer på enheten din. Videoer konverteres på våre lynraske servere. Ingen filstørrelsesgrense, ingen annonser, og helt åpen kildekode.",
+		"subtitle": "All bilde-, lyd- og dokumentbehandling skjer på enheten din. Ingen filstørrelsesgrense, ingen annonser, og helt åpen kildekode.",
 		"uploader": {
 			"text": "Slipp eller klikk for å {action}",
 			"convert": "konvertere"
 		},
 		"cards": {
-			"title": "VERT støtter...",
+			"title": "ConVERTer støtter...",
 			"images": "Bilder",
 			"audio": "Lyd",
 			"documents": "Dokumenter",
@@ -153,7 +153,7 @@
 			},
 			"language": {
 				"title": "Språk",
-				"description": "Velg ønsket språk for VERT-grensesnittet."
+				"description": "Velg ønsket språk for ConVERTer-grensesnittet."
 			}
 		},
 		"conversion": {
@@ -184,7 +184,7 @@
 			"filename": {
 				"format": "Filnavnformat",
 				"description": "Dette bestemmer navnet på filen ved nedlasting, <b>uten filendelsen.</b> Du kan bruke følgende maler i formatet, som vil bli erstattet med relevant informasjon: <b>%name%</b> for det opprinnelige filnavnet, <b>%extension%</b> for den opprinnelige filendelsen, og <b>%date%</b> for en dato når filen ble konvertert.",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			}
 		},
 		"vertd": {
@@ -238,7 +238,7 @@
 			},
 			"site_data": {
 				"title": "Nettsteddata-håndtering",
-				"description": "Tøm alle nettsteddata inkludert innstillinger og cachede filer, tilbakestill VERT til standard og last inn siden på nytt.",
+				"description": "Tøm alle nettsteddata inkludert innstillinger og cachede filer, tilbakestill ConVERTer til standard og last inn siden på nytt.",
 				"clear_all_data": "Tøm alle nettsteddata",
 				"clear_all_data_confirm_title": "Tøm alle nettsteddata?",
 				"clear_all_data_confirm": "Dette vil tilbakestille alle innstillinger og cache, og deretter laste inn siden på nytt. Denne handlingen kan ikke angres.",
@@ -289,7 +289,7 @@
 			"github_description": "Stor takk til alle disse for å hjelpe til! [github_link]Vil du også hjelpe?[/github_link]",
 			"no_contributors": "Ser ut som ingen har bidratt ennå... [contribute_link]bli den første til å bidra![/contribute_link]",
 			"libraries": "Biblioteker",
-			"libraries_description": "En stor takk til FFmpeg (lyd, video), ImageMagick (bilder) og Pandoc (dokumenter) for å vedlikeholde slike utmerkede biblioteker i så mange år. VERT er avhengig av dem for å gi deg konverteringene dine.",
+			"libraries_description": "En stor takk til FFmpeg (lyd, video), ImageMagick (bilder) og Pandoc (dokumenter) for å vedlikeholde slike utmerkede biblioteker i så mange år. ConVERTer er avhengig av dem for å gi deg konverteringene dine.",
 			"roles": {
 				"lead_developer": "Hovedutvikler; konverteringsbackend, UI-implementering",
 				"developer": "Utvikler; UI-implementering",
@@ -353,6 +353,6 @@
 		"last_updated": "Sist oppdatert: 2025-10-29"
 	},
 	"toast": {
-		"insecure_context": "Du besøker VERT i en usikker kontekst (f.eks. tilgang via HTTP i stedet for HTTPS). Noen funksjoner kan ikke fungere som forventet."
+		"insecure_context": "Du besøker ConVERTer i en usikker kontekst (f.eks. tilgang via HTTP i stedet for HTTPS). Noen funksjoner kan ikke fungere som forventet."
 	}
 }

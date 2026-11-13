@@ -18,7 +18,10 @@
 	import { onMount } from "svelte";
 	import type { WorkerStatus } from "#lib/converters/converter.svelte";
 	import { sanitize } from "#lib/store/index.svelte";
-	import { DISABLE_ALL_EXTERNAL_REQUESTS } from "#lib/util/consts";
+	import {
+		DISABLE_ALL_EXTERNAL_REQUESTS,
+		LOCAL_ONLY,
+	} from "#lib/util/consts";
 
 	const getSupportedFormats = (name: string) =>
 		converters
@@ -79,7 +82,22 @@
 			},
 		};
 
-		if (!DISABLE_ALL_EXTERNAL_REQUESTS) {
+		if (LOCAL_ONLY) {
+			// local conversion only: video is handled by the in-browser converters
+			output.Video = {
+				formats: Array.from(
+					new Set([
+						...getSupportedFormats("mediabunny").split(", "),
+						...getSupportedFormats("ffmpeg-video").split(", "),
+					]),
+				)
+					.filter((f) => f !== "none")
+					.join(", "),
+				icon: FilmIcon,
+				title: m["upload.cards.video"](),
+				status: categoryStatus("video") || "idle",
+			};
+		} else if (!DISABLE_ALL_EXTERNAL_REQUESTS) {
 			const formats = Array.from(
 				new Set([
 					...getSupportedFormats("vertd").split(", "),
@@ -233,7 +251,7 @@
 									class="relative flex h-[12.25rem] flex-col gap-4"
 									bind:this={scrollContainers[i]}
 								>
-									{#if key === "Video"}
+									{#if key === "Video" && !LOCAL_ONLY}
 										<p
 											class="tems-center flex justify-center gap-2"
 										>

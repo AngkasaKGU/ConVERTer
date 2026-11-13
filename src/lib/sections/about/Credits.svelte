@@ -10,6 +10,9 @@
 	import { clsx } from "clsx";
 
 	let { mainContribs, notableContribs, ghContribs } = $props();
+
+	// shown verbatim in the "Forked from" credit line
+	const FORKED_FROM_URL = "https://github.com/VERT-sh/vert";
 </script>
 
 {#snippet contributor(
@@ -64,7 +67,13 @@
 	</h2>
 
 	<p class="-mb-3 -mt-4 text-lg font-black">
-		{m["about.credits.contact_team"]()}
+		{m["about.credits.forked_from"]()}
+		<a
+			class="underline"
+			href={FORKED_FROM_URL}
+			target="_blank"
+			rel="external noopener noreferrer">{FORKED_FROM_URL}</a
+		>
 	</p>
 
 	<!-- Main contributors -->

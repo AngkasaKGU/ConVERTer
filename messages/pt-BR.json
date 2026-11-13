@@ -8,20 +8,20 @@
 		"toggle_theme": "Alternar tema"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "Código fonte",
 		"discord_server": "Servidor Discord",
 		"privacy_policy": "Política de privacidade"
 	},
 	"upload": {
 		"title": "O conversor de arquivos que você vai adorar.",
-		"subtitle": "Todo processamento de imagens, audio e documentos é feito no seu dispositivo. Vídeos são convertidos em nossos servidores ultrarrápidos. Sem limite de tamanho de arquivo, sem anúncios e totalmente de código aberto.",
+		"subtitle": "Todo processamento de imagens, audio e documentos é feito no seu dispositivo. Sem limite de tamanho de arquivo, sem anúncios e totalmente de código aberto.",
 		"uploader": {
 			"text": "Arraste ou clique para {action}",
 			"convert": "converter"
 		},
 		"cards": {
-			"title": "VERT suporta...",
+			"title": "ConVERTer suporta...",
 			"images": "Imagens",
 			"audio": "Áudio",
 			"documents": "Documentos",
@@ -146,7 +146,7 @@
 			},
 			"language": {
 				"title": "Idioma",
-				"description": "Selecione seu idioma preferido para a interface do VERT."
+				"description": "Selecione seu idioma preferido para a interface do ConVERTer."
 			}
 		},
 		"conversion": {
@@ -177,7 +177,7 @@
 			"filename": {
 				"format": "Formato do nome do arquivo",
 				"description": "Isso determinará o nome do arquivo no download, <b>não incluindo a extensão do arquivo.</b> Você pode colocar os seguintes modelos no formato, que serão substituídos pelas informações relevantes: <b>%name%</b> para o nome original do arquivo, <b>%extension%</b> para a extensão original do arquivo e <b>%date%</b> para uma string de data de quando o arquivo foi convertido.",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			}
 		},
 		"vertd": {
@@ -187,7 +187,7 @@
 			"available": "disponível, id do commit {commitId}",
 			"unavailable": "indisponível (a url está correta?)",
 			"description": {
-				"main": "O projeto <code>vertd</code> é um wrapper de servidor para FFmpeg. Isso permite que você converta vídeos através da conveniência da interface web do VERT, enquanto ainda pode aproveitar o poder da sua GPU para fazer isso o mais rápido possível.",
+				"main": "O projeto <code>vertd</code> é um wrapper de servidor para FFmpeg. Isso permite que você converta vídeos através da conveniência da interface web do ConVERTer, enquanto ainda pode aproveitar o poder da sua GPU para fazer isso o mais rápido possível.",
 				"info": "Hospedamos uma instância pública para sua conveniência, mas é bastante fácil hospedar a sua própria em seu PC ou servidor se você souber o que está fazendo. Você pode baixar os binários do servidor [vertd_link]aqui[/vertd_link] - o processo de configuração disso ficará mais fácil no futuro, então fique atento!"
 			},
 			"instance": {
@@ -233,7 +233,7 @@
 			},
 			"site_data": {
 				"title": "Gerenciamento de dados do site",
-				"description": "Limpe todos os dados do site, incluindo configurações e arquivos em cache, redefinindo o VERT para seu estado padrão e recarregando a página.",
+				"description": "Limpe todos os dados do site, incluindo configurações e arquivos em cache, redefinindo o ConVERTer para seu estado padrão e recarregando a página.",
 				"clear_all_data": "Limpar todos os dados do site",
 				"clear_all_data_confirm_title": "Limpar todos os dados do site?",
 				"clear_all_data_confirm": "Isso irá redefinir todas as configurações e cache, e então recarregar a página. Esta ação não pode ser desfeita.",
@@ -284,7 +284,7 @@
 			"github_description": "Um grande obrigado a todas essas pessoas por ajudarem! [github_link]Quer ajudar também?[/github_link]",
 			"no_contributors": "Parece que ninguém contribuiu ainda... [contribute_link]seja o primeiro a contribuir![/contribute_link]",
 			"libraries": "Bibliotecas",
-			"libraries_description": "Um grande obrigado ao FFmpeg (áudio, vídeo), ImageMagick (imagens) e Pandoc (documentos) por manterem bibliotecas tão excelentes por tantos anos. O VERT depende deles para fornecer suas conversões.",
+			"libraries_description": "Um grande obrigado ao FFmpeg (áudio, vídeo), ImageMagick (imagens) e Pandoc (documentos) por manterem bibliotecas tão excelentes por tantos anos. O ConVERTer depende deles para fornecer suas conversões.",
 			"roles": {
 				"lead_developer": "Desenvolvedor principal; backend de conversão, implementação da interface do usuário",
 				"developer": "Desenvolvedor; implementação da interface do usuário",

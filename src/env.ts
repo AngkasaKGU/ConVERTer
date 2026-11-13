@@ -23,7 +23,9 @@ export const variables = defineEnvVars({
 		public: true,
 		static: true,
 		description:
-			"URL of the vertd daemon for video conversion (default: official VERT instance).",
+			"Unused in ConVERTer: local conversion only, vertd is never contacted (see docs/adr/0001). Kept so upstream vertd code still compiles.",
+		// optional in ConVERTer, so builds don't need it set
+		schema: (value) => value ?? "",
 	},
 	PUB_DISABLE_ALL_EXTERNAL_REQUESTS: {
 		public: true,

@@ -8,20 +8,20 @@
 		"toggle_theme": "테마 전환"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} ConVERTer.",
 		"source_code": "소스 코드",
 		"discord_server": "Discord 서버",
 		"privacy_policy": "개인정보 처리방침"
 	},
 	"upload": {
 		"title": "이 파일 변환기,\n 마음에 드실 거예요.",
-		"subtitle": "모든 이미지, 오디오, 문서 처리는 사용자의 기기에서 이루어집니다. 동영상은 매우 빠른 VERT 전용 서버에서 변환됩니다. 광고나 파일 크기 제한이 전혀 없는 완전한 오픈 소스입니다.",
+		"subtitle": "모든 이미지, 오디오, 문서 처리는 사용자의 기기에서 이루어집니다. 광고나 파일 크기 제한이 전혀 없는 완전한 오픈 소스입니다.",
 		"uploader": {
 			"text": "드래그하거나 클릭해서 {action}",
 			"convert": "변환하기"
 		},
 		"cards": {
-			"title": "VERT가 지원하는 포맷들",
+			"title": "ConVERTer가 지원하는 포맷들",
 			"images": "이미지",
 			"audio": "오디오",
 			"documents": "문서",
@@ -165,7 +165,7 @@
 			"filename": {
 				"format": "파일 이름 형식",
 				"description": "다운로드할 파일의 이름을 설정합니다. <b>파일 확장자(포맷)는 포함되지 않습니다.</b> 다음 템플릿을 형식에 넣을 수 있으며, 관련 정보로 대체됩니다: <b>%name%</b> 원본 파일 이름, <b>%extension%</b> 원본 파일 확장자, <b>%date%</b> 파일이 변환된 날짜 문자열.",
-				"placeholder": "VERT_%name%"
+				"placeholder": "ConVERTer_%name%"
 			}
 		},
 		"vertd": {
@@ -175,7 +175,7 @@
 			"available": "사용 가능, 커밋 ID {commitId}",
 			"unavailable": "사용 불가 (URL를 다시 확인해주세요.)",
 			"description": {
-				"main": "<code>vertd</code> 프로젝트는 FFmpeg를 위한 서버 래퍼입니다. 이를 통해 VERT의 웹 인터페이스를 통해 비디오를 변환할 수 있으며, GPU를 활용하여 가능한 한 빠르게 작업을 수행할 수 있습니다.",
+				"main": "<code>vertd</code> 프로젝트는 FFmpeg를 위한 서버 래퍼입니다. 이를 통해 ConVERTer의 웹 인터페이스를 통해 비디오를 변환할 수 있으며, GPU를 활용하여 가능한 한 빠르게 작업을 수행할 수 있습니다.",
 				"info": "편의를 위해 공개 인스턴스를 호스팅하지만, PC나 서버에서 직접 호스팅하는 것도 매우 쉽습니다. 서버 바이너리를 [vertd_link]여기[/vertd_link]에서 다운로드할 수 있습니다. 이 설정 프로세스는 앞으로 더 쉬워질 것이므로 기대해 주세요!"
 			},
 			"instance": {
@@ -260,7 +260,7 @@
 			"github_description": "도와주신 모든 분들께 진심으로 감사드립니다! [github_link]기여하기[/github_link]",
 			"no_contributors": "아직 기여한 사람이 없는 것 같습니다... [contribute_link]첫 번째 기여자가 되어보세요![/contribute_link]",
 			"libraries": "라이브러리들",
-			"libraries_description": "수년 동안 훌륭한 라이브러리를 유지해 주신 FFmpeg (오디오, 비디오), ImageMagick (이미지) 및 Pandoc (문서)에 진심으로 감사드립니다. VERT는 위 라이브러리들을 사용하여 변환을 제공합니다.",
+			"libraries_description": "수년 동안 훌륭한 라이브러리를 유지해 주신 FFmpeg (오디오, 비디오), ImageMagick (이미지) 및 Pandoc (문서)에 진심으로 감사드립니다. ConVERTer는 위 라이브러리들을 사용하여 변환을 제공합니다.",
 			"roles": {
 				"lead_developer": "총괄 개발자; 변환 백엔드, UI 구현",
 				"developer": "개발자; UI 구현",
