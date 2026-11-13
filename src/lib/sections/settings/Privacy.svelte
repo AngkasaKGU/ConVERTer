@@ -18,7 +18,7 @@
 	import { ToastManager } from "#lib/util/toast.svelte";
 	import { DISABLE_ALL_EXTERNAL_REQUESTS } from "#lib/util/consts";
 	import { addDialog } from "#lib/store/DialogProvider";
-	import { PUB_PLAUSIBLE_URL } from "$app/env/public";
+	import { PUB_HOSTNAME, PUB_PLAUSIBLE_URL } from "$app/env/public";
 	import { resolve } from "$app/paths";
 	import clsx from "clsx";
 
@@ -213,7 +213,8 @@
 									](),
 									[
 										"https://plausible.io/privacy-focused-web-analytics",
-										"https://ats.vert.sh/vert.sh",
+										// ConVERTer: this instance's own dashboard, not upstream's
+										`${PUB_PLAUSIBLE_URL}/${PUB_HOSTNAME}`,
 									],
 								),
 							)}
