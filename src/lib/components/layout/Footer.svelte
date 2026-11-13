@@ -9,8 +9,6 @@
 			? __COMMIT_HASH__
 			: null;
 
-	const year = new Date().getFullYear();
-
 	// we can't use svelte snippets or a derived object to render the footer as it causes a full-page reload
 	// ...for some reason. i have no idea, maybe it's to do with the {#key $locale} in +layout.svelte
 </script>
@@ -21,8 +19,6 @@
 	<div
 		class="relative flex h-full w-full items-center justify-center gap-3 text-muted"
 	>
-		<p>{m["footer.copyright"]({ year })}</p>
-		<p>•</p>
 		<a
 			class="font-normal hover:underline"
 			href={GITHUB_URL_FORK}

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from "$app/state";
 	import { duration, transition } from "#lib/util/animation";
-	import VertVBig from "#lib/assets/vert-bg.svg?component";
+	import ConverterMark from "#lib/assets/converter-mark.svg?component";
 	import { files, gradientColor } from "#lib/store/index.svelte";
 	import { quintOut } from "svelte/easing";
 	import { fade } from "#lib/util/animation";
@@ -76,7 +76,7 @@
 			easing: quintOut,
 		}}
 	>
-		<VertVBig
+		<ConverterMark
 			class="scale-[200%] fill-[--fg] opacity-10 dynadark:opacity-5 md:scale-[80%]"
 		/>
 	</div>

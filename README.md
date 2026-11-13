@@ -1,50 +1,30 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bf441748-0ec5-4c8a-b3e5-11301ee3f0bd" alt="VERT's logo" height="100">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/converter-logo-dark.svg" />
+    <img src="docs/images/converter-logo-light.svg" alt="ConVERTer" height="60" />
+  </picture>
 </p>
-<h1 align="center"><a href="https://vert.sh">VERT.sh</a></h1>
+<h1 align="center">ConVERTer</h1>
 
-VERT is a file conversion utility that uses WebAssembly to convert files on your device instead of a cloud. Check out the live instance at [vert.sh](https://vert.sh).
+ConVERTer is a file conversion utility that uses WebAssembly to convert files on your device instead of a cloud. Every conversion, including video, happens locally in your browser: files never leave your device.
 
-VERT is built in Svelte and TypeScript.
-
-## Screenshots
-
-|                     Upload page                      |                     Conversion page                      |
-| :--------------------------------------------------: | :------------------------------------------------------: |
-| ![VERT upload page](docs/images/screenshot-home.png) | ![VERT convert page](docs/images/screenshot-convert.png) |
+ConVERTer is a modified version of [VERT](https://github.com/VERT-sh/VERT), changed from 13 November 2026 onwards. It is built in Svelte and TypeScript.
 
 ## Features
 
-- Convert files directly on your device using WebAssembly\*
+- Convert files directly on your device using WebAssembly
 - No file or file size limits
-- Convert images, audio, documents, and video\*
+- Convert images, audio, documents, and video
 - Supports over **250+** file formats
 - Conversion settings
 - User-friendly interface built with Svelte
-
-<sup>\* Local video conversion in-browser is supported, but some conversion may require server-side processing. Server video conversion is available with our official instance, but the [daemon](https://github.com/VERT-sh/vertd) is easily self-hostable to maintain privacy and fully local functionality.</sup>
 
 ## Documentation
 
 - [FAQ](./docs/FAQ.md)
 - [Getting Started](./docs/GETTING_STARTED.md)
 - [Using Docker](./docs/DOCKER.md)
-- [Video Conversion](./docs/VIDEO_CONVERSION.md)
-
-## Contributing
-
-Refer to our contributing guidelines before opening an issue or pull request here: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## License
 
 This project is licensed under the AGPL-3.0 License, please see the [LICENSE](LICENSE) file for details.
-
-## Star History
-
-<a href="https://star-history.dera.page/#VERT-sh/VERT&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=VERT-sh/VERT&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=VERT-sh/VERT&type=Date" />
-   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=VERT-sh/VERT&type=Date" />
- </picture>
-</a>

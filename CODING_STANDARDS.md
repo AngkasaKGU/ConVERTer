@@ -10,7 +10,7 @@ Every code path that can contact the vertd video conversion server is gated by `
 
 ## Product name vs upstream credit
 
-User-facing text that names the product says **ConVERTer**; text that credits or refers to the upstream project says **VERT** (terms in [GLOSSARY.md](GLOSSARY.md)). The branding check only scans messages and "vert.sh", so review hard-coded strings in components and TypeScript yourself: toasts, dialogs, error messages, file-picker descriptions, `<title>`/meta content, and new upstream links (`VERT-sh/VERT`) that should point at the fork repo (`GITHUB_URL_FORK`).
+User-facing text that names the product says **ConVERTer**; text that credits or refers to the upstream project says **VERT** (terms in [GLOSSARY.md](GLOSSARY.md)). The branding check only scans messages and "vert.sh", so review hard-coded strings in components and TypeScript yourself: toasts, dialogs, error messages, file-picker descriptions, `<title>`/meta content, and new upstream links (`VERT-sh/VERT`) that should point at the fork repo (`GITHUB_URL_FORK`). Visual identity follows the same rule: ConVERTer uses its own Unbounded wordmark (`Logo.svelte`) and "C" mark (`converter-mark.svg`, `favicon.png`, `lettermark*`), so VERT logo assets an upstream merge brings back (the "V" mark, the VERT wordmark) are removed.
 
 ## Minimal edits to upstream code
 
