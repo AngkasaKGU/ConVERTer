@@ -5,7 +5,7 @@ WORKDIR /app
 ARG PUB_ENV
 ARG PUB_HOSTNAME
 ARG PUB_PLAUSIBLE_URL
-ARG PUB_DISABLE_ALL_EXTERNAL_REQUESTS
+ARG PUB_DISABLE_ALL_EXTERNAL_REQUESTS=true
 ARG PUB_DONATION_URL
 ARG PUB_STRIPE_KEY
 ARG PUB_DISABLE_FAILURE_BLOCKS=false
@@ -30,11 +30,14 @@ COPY . ./
 
 RUN bun run build
 
+# ConVERTer: CSP header only when external requests are disabled (docs/adr/0002)
+RUN bun scripts/nginx-csp.ts /app/nginx.conf
+
 FROM nginx:stable-alpine
 
 EXPOSE 80/tcp
 
-COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY --from=builder /app/build /usr/share/nginx/html
 

@@ -49,3 +49,7 @@ jobs:
                   . ./.env.example
                   set +a
                   bun run build
+
+            # .env.example disables external requests, so the build must not reference other hosts (docs/adr/0002)
+            - name: No external requests
+              run: bun run check:external

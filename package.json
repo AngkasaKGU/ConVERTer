@@ -11,7 +11,8 @@
 		"migrate:messages": "node scripts/migrate-language-keys.mjs",
 		"format": "prettier --write .",
 		"lint": "eslint .",
-		"check:branding": "node scripts/check-branding.mjs"
+		"check:branding": "node scripts/check-branding.mjs",
+		"check:external": "node scripts/check-no-external.mjs"
 	},
 	"imports": {
 		"#lib": "./src/lib/index.js",
