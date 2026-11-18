@@ -245,6 +245,8 @@
 			"no_contributors": "Sepertinya belum ada yang berkontribusi... [contribute_link]jadilah yang pertama berkontribusi![/contribute_link]",
 			"libraries": "Pustaka",
 			"libraries_description": "Terima kasih besar kepada FFmpeg (audio, video), ImageMagick (gambar), dan Pandoc (dokumen) atas pemeliharaannya selama bertahun-tahun. ConVERTer bergantung pada mereka untuk menyediakan konversi berkas.",
+			"fonts": "Fonts",
+			"fonts_description": "ConVERTer uses [host_grotesk_link]Host Grotesk[/host_grotesk_link] and [radio_canada_big_link]Radio Canada Big[/radio_canada_big_link], both licensed under the SIL Open Font License 1.1 (the links open each font's license). The logo is set in [unbounded_link]Unbounded[/unbounded_link], also under the SIL Open Font License.",
 			"roles": {
 				"lead_developer": "Pengembang utama; backend konversi, implementasi UI",
 				"developer": "Pengembang; implementasi UI",

@@ -8,6 +8,7 @@
 	import avatarJovannMC from "#lib/assets/avatars/jovannmc.jpg";
 	import avatarRealmy from "#lib/assets/avatars/realmy.jpg";
 	import avatarAzurejelly from "#lib/assets/avatars/azurejelly.jpg";
+	import avatarEva from "#lib/assets/avatars/eva.jpg";
 	import {
 		DISABLE_ALL_EXTERNAL_REQUESTS,
 		GITHUB_API_URL,
@@ -38,7 +39,8 @@
 			name: "Eva",
 			github: "https://eva.pink",
 			role: m["about.credits.roles.eva"](),
-			avatar: "https://avatars.githubusercontent.com/u/110857998?v=4", //// wanted to keep pfp up-to-date
+			// bundled, not hotlinked from GitHub: no external requests by default (docs/adr/0002)
+			avatar: avatarEva,
 		},
 		{
 			name: "Liam",

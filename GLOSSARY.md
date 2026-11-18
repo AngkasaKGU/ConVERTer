@@ -20,6 +20,10 @@ _Avoid_: New repo, our repo
 Conversion that happens entirely in the user's browser, without the file leaving the device. ConVERTer offers only this.
 _Avoid_: Client-side conversion, offline mode
 
+**External request**:
+Any network request the app makes to a host other than the deployment serving it. ConVERTer makes none by default; a deployment's operator may opt in.
+_Avoid_: Remote call, third-party request, server-side operation
+
 **Video conversion server**:
 Upstream's remote daemon (vertd) that converts video uploaded to it. ConVERTer never uses it.
 _Avoid_: Backend, vertd server, server conversion

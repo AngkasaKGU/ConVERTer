@@ -9,8 +9,6 @@
         "@ffmpeg/core-mt": "0.12.10",
         "@ffmpeg/ffmpeg": "^0.12.15",
         "@ffmpeg/util": "^0.12.2",
-        "@fontsource/azeret-mono": "^5.3.0",
-        "@fontsource/lexend": "^5.3.0",
         "@fontsource/radio-canada-big": "^5.3.0",
         "@imagemagick/magick-wasm": "^0.0.44",
         "@lucide/svelte": "^1.57.0",
@@ -147,10 +145,6 @@
 
     "@ffmpeg/util": ["@ffmpeg/util@0.12.2", "", {}, "sha512-ouyoW+4JB7WxjeZ2y6KpRvB+dLp7Cp4ro8z0HIVpZVCM7AwFlHa0c4R8Y/a4M3wMqATpYKhC7lSFHQ0T11MEDw=="],
 
-    "@fontsource/azeret-mono": ["@fontsource/azeret-mono@5.3.0", "", {}, "sha512-Ag/+gN67fUry7i1yLlTnk16Rr1nnTQI2YefA/G7tYcCSr/+TC/ayMrE8Km7O0OKRgI/B5Mfel46Gq9IGY50Uaw=="],
-
-    "@fontsource/lexend": ["@fontsource/lexend@5.3.0", "", {}, "sha512-4igbsooynC6xwfagkAW6eo9JMrw8ALFGkWn1YChYmYchufMJSPgWihD+cy5ruX5YX/gDk/gllcl1Oj7q6KUZmw=="],
-
     "@fontsource/radio-canada-big": ["@fontsource/radio-canada-big@5.3.0", "", {}, "sha512-430NJzaW63rCaAbjQPRNG5z19PehjlKk+UyEzSfFjsw6HgzzkCBzlyPW9R0+gjwwY3Puo5uazRuM4P+BY9b6FA=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.2", "", { "dependencies": { "@humanfs/types": "^0.15.0" } }, "sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA=="],
@@ -225,7 +219,7 @@
 
     "@neplex/vectorizer-linux-x64-musl": ["@neplex/vectorizer-linux-x64-musl@0.1.0", "", { "os": "linux", "cpu": "x64" }, "sha512-T9QgcxddN7mF/8JrA1FNr7F3EwKKwWFFl2v8tndRtDU1N/2wLj+1drSzgJZjxcTjlMG3yOcLhDqFXq7Nsxwwkg=="],
 
-    "@neplex/vectorizer-wasm32-wasi": ["@neplex/vectorizer-wasm32-wasi@https://registry.npmjs.org/@neplex/vectorizer-wasm32-wasi/-/vectorizer-wasm32-wasi-0.1.0.tgz", { "dependencies": { "@napi-rs/wasm-runtime": "^1.1.4" } }],
+    "@neplex/vectorizer-wasm32-wasi": ["@neplex/vectorizer-wasm32-wasi@https://registry.npmjs.org/@neplex/vectorizer-wasm32-wasi/-/vectorizer-wasm32-wasi-0.1.0.tgz", { "dependencies": { "@napi-rs/wasm-runtime": "^1.1.4" } }, "sha512-rEQs14UTfQqh69uxwRo2aJiDzymdOx+j/5pl7sDuEITsx/6nb60dsZkd8gkyuNzBeYSTt8lSSL3sxEmHXQauPw=="],
 
     "@neplex/vectorizer-win32-arm64-msvc": ["@neplex/vectorizer-win32-arm64-msvc@0.1.0", "", { "os": "win32", "cpu": "arm64" }, "sha512-QdzriEzZHlzaCFZKw4GgMZ2cUomD+fAgOFs4qYVFQ9K2weyJzTNsCam3gb6xZFhFJ/REPVbNdAB46W6RyAjLBA=="],
 

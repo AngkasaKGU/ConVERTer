@@ -1,0 +1,6 @@
+# Only rule: font license texts must stay byte-for-byte upstream's (SIL OFL),
+# so editors must not trim their trailing whitespace.
+root = true
+
+[static/licenses/**.txt]
+trim_trailing_whitespace = false

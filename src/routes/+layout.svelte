@@ -37,8 +37,12 @@
 
 	let { children } = $props();
 	let isAprilFools = $state(false);
+	// ConVERTer: only add Plausible once mounted and settings are loaded, so it's never baked into
+	// prerendered HTML, where the browser would fetch it before the user's opt-out setting can be read
+	let mounted = $state(false);
 	let enablePlausible = $derived(
-		!!PUB_PLAUSIBLE_URL &&
+		mounted &&
+			!!PUB_PLAUSIBLE_URL &&
 			Settings.instance.settings.plausible &&
 			!DISABLE_ALL_EXTERNAL_REQUESTS,
 	);
@@ -114,6 +118,7 @@
 		if (storedLocale) updateLocale(storedLocale);
 
 		Settings.instance.load();
+		mounted = true; // after load, so Plausible never sees the default opt-in before the user's setting
 
 		// detect if insecure context
 		if (!window.isSecureContext) {

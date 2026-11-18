@@ -8,6 +8,7 @@
 	import { m } from "#lib/paraglide/messages";
 	import { link, sanitize } from "#lib/store/index.svelte";
 	import { clsx } from "clsx";
+	import FontCredits from "./FontCredits.svelte"; // ConVERTer
 
 	let { mainContribs, notableContribs, ghContribs } = $props();
 
@@ -104,6 +105,9 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- ConVERTer: font credits and OFL license links, shown even with external requests disabled -->
+		<FontCredits />
 
 		<!-- GitHub contributors -->
 		{#if !DISABLE_ALL_EXTERNAL_REQUESTS}
