@@ -285,6 +285,8 @@
 			"no_contributors": "Zdá se, že zatím nikdo nepřispěl... [contribute_link]buďte první, kdo přispěje![/contribute_link]",
 			"libraries": "Knihovny",
 			"libraries_description": "Velké díky FFmpeg (audio, video), ImageMagick (obrázky) a Pandoc (dokumenty) za udržování tak vynikajících knihoven po tolik let. ConVERTer na nich spoléhá, aby vám mohl poskytovat vaše konverze.",
+			"fonts": "Fonts",
+			"fonts_description": "ConVERTer uses [host_grotesk_link]Host Grotesk[/host_grotesk_link] and [radio_canada_big_link]Radio Canada Big[/radio_canada_big_link], both licensed under the SIL Open Font License 1.1 (the links open each font's license). The logo is set in [unbounded_link]Unbounded[/unbounded_link], also under the SIL Open Font License.",
 			"roles": {
 				"lead_developer": "Vedoucí vývojář; backend konverze, implementace UI",
 				"developer": "Vývojář; implementace UI",

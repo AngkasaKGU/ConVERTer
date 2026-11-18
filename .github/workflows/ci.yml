@@ -53,3 +53,7 @@ jobs:
             # .env.example disables external requests, so the build must not reference other hosts (docs/adr/0002)
             - name: No external requests
               run: bun run check:external
+
+            # every served font needs its SIL OFL text in static/licenses/fonts/ (OFL §2)
+            - name: Font licenses
+              run: bun run check:fonts
