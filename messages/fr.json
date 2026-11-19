@@ -217,7 +217,7 @@
 			"libraries": "Bibliothèques",
 			"libraries_description": "un grand merci à FFmpeg (audio, video), ImageMagick (images) et Pandoc (documents) pour avoir maintenu d'aussi excellentes bibliothèques pendant tant d'années, ConVERTer compte sur eux pour vous fournir vos conversions.",
 			"fonts": "Fonts",
-			"fonts_description": "ConVERTer uses [host_grotesk_link]Host Grotesk[/host_grotesk_link] and [radio_canada_big_link]Radio Canada Big[/radio_canada_big_link], both licensed under the SIL Open Font License 1.1 (the links open each font's license). The logo is set in [unbounded_link]Unbounded[/unbounded_link], also under the SIL Open Font License.",
+			"fonts_description": "These fonts are used in this project.",
 			"roles": {
 				"lead_developer": "Lead developer; conversion backend, UI implementation",
 				"developer": "Developer; UI implementation",

@@ -31,9 +31,8 @@ This project is licensed under the AGPL-3.0 License, please see the [LICENSE](LI
 
 ### Fonts
 
-The fonts ConVERTer serves are licensed separately, under the SIL Open Font License 1.1. Their license texts are served with the app at `/licenses/fonts/` and linked from the Credits on the About page:
+These fonts are used in this project. Their license texts are served at `/licenses/fonts/` and linked from the Credits on the About page; sources are in [SOURCES.md](static/licenses/fonts/SOURCES.md).
 
-- Host Grotesk: [static/licenses/fonts/HostGrotesk-OFL.txt](static/licenses/fonts/HostGrotesk-OFL.txt)
-- Radio Canada Big: [static/licenses/fonts/RadioCanadaBig-OFL.txt](static/licenses/fonts/RadioCanadaBig-OFL.txt)
-
-The logo is set in [Unbounded](https://github.com/googlefonts/unbounded) (SIL OFL 1.1), converted to outlines, so no Unbounded font file ships. Where each license text came from is recorded in [static/licenses/fonts/SOURCES.md](static/licenses/fonts/SOURCES.md).
+- Host Grotesk ([SIL OPEN FONT LICENSE Version 1.1](static/licenses/fonts/HostGrotesk-OFL.txt))
+- Radio Canada Big ([SIL OPEN FONT LICENSE Version 1.1](static/licenses/fonts/RadioCanadaBig-OFL.txt))
+- Unbounded, logo ([SIL OPEN FONT LICENSE Version 1.1](static/licenses/fonts/Unbounded-OFL.txt))
